@@ -22,6 +22,10 @@ h1 {
   font-size: 96px;
 }
 
+h2 {
+  font-size: 55px;
+}
+
 p {
   font-weight: normal;
   line-height: 30px;
@@ -78,5 +82,13 @@ p {
 
   h2 {
     font-size: 45px;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .project-desciption {
+    padding: 0;
+    text-align: center;
   }
 }
