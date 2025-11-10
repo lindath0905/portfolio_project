@@ -52,6 +52,29 @@ p {
   font-size: 24px;
 }
 
+.about-hero {
+  padding: 0;
+  text-align: center;
+}
+
+.about-hero h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-hero h2 {
+  font-size: 22px;
+  font-family: var(--default-font-family);
+}
+
+.about-hero-content {
+  margin: 30px;
+}
+
+.profile-img {
+  border-radius: 10px;
+}
+
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
