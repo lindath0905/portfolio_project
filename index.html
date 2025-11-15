@@ -26,22 +26,32 @@
       crossorigin="anonymous"
     ></script>
     <link href="styles/style.css" rel="stylesheet" />
-    <title>Linda Thurner</title>
+    <meta
+      name="description"
+      content="Portfolio website of Linda Thurner, front-end developer based in Austria."
+    />
+    <title>front-end developer - Linda Thurner</title>
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <img src="images/logo.png" alt="logo" class="logo d-none d-md-block" />
+        <img
+          src="images/logo.png"
+          alt="website logo"
+          class="logo d-none d-md-block"
+        />
         <img
           src="images/logo_small.jpg"
-          alt="logo-small"
+          alt="website logo small"
           class="logo d-block d-md-none"
         />
         <ul class="nav-links">
-          <li class="active"><a href="/index.html">Home</a></li>
-          <li><a href="/about.html">About Me</a></li>
-          <li><a href="/work.html">Projects</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li class="active">
+            <a href="/index.html" title="Lindas Homepage">Home</a>
+          </li>
+          <li><a href="/about.html" title="About Linda">About Me</a></li>
+          <li><a href="/work.html" title="Lindas Projects">Projects</a></li>
+          <li><a href="/contact.html" title="Contact Linda">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -50,73 +60,82 @@
       <h1>Linda Thurner</h1>
       <h2 class="mb-5">Front-end developer based in Austria</h2>
       <div>
-        <a href="#" class="btn btn-branding">Contact me</a>
+        <a href="/contact.html" class="btn btn-branding">Contact me</a>
       </div>
     </div>
-    <p class="text-center m-5">
-      Featured Project with my best projects of choice to show
-    </p>
+    <p class="text-center m-5">Check out some of my featured projects below</p>
     <div class="container">
-      <div class="row mb-5">
-        <div class="col">
-          <img src="images/yogurtapp.png" class="img-fluid" alt="yogurt-app" />
+      <div class="row">
+        <div class="col d-none d-lg-block">
+          <img
+            src="images/yogurtapp.png"
+            class="img-fluid"
+            alt="yogurt app preview"
+          />
         </div>
         <div class="col">
           <div class="project-description">
             <h2 class="mb-5">Yogurt App</h2>
             <p class="mb-5 text-muted">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast of the Semantics, a
-              large language ocean. A small river named Duden flows by
+              I entered the world of front-end development by gaining some
+              knowledge in HTML, CSS, and JavaScript. I used my knowledge of
+              these languages, along with my new skills in VS Code, to build a
+              landing page about Yogurt. The page utilizes JavaScript functions
+              to create user interaction.
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
-        </div>
-      </div>
-      <div class="row mb-5">
-        <div class="col">
-          <div class="project-description">
-            <h2 class="mb-5">Weather App</h2>
-            <p class="mb-5 text-muted">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast of the Semantics, a
-              large language ocean. A small river named Duden flows by
-            </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
-          </div>
-        </div>
-        <div class="col">
-          <img src="images/weatherapp.png" class="img-fluid" alt="yogurt-app" />
         </div>
       </div>
       <div class="row">
         <div class="col">
+          <div class="project-description">
+            <h2 class="mb-5">Weather App</h2>
+            <p class="mb-5 text-muted">
+              I built a Vanilla JavaScript weather app in SheCodes Plus, an
+              advanced 8-week JavaScript coding workshop. Building upon my
+              previously-gained knowledge, I also became skilled in Bootstrap,
+              API’s, real-life development workflow, hosting, and advanced
+              JavaScript. I combined all of these skills to create a
+              fully-functioning weather app.
+            </p>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
+          </div>
+        </div>
+        <div class="col d-none d-lg-block">
+          <img
+            src="images/weatherapp.png"
+            class="img-fluid"
+            alt="weather app preview"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col d-none d-lg-block">
           <img
             src="images/dictionaryapp.png"
             class="img-fluid"
-            alt="yogurt-app"
+            alt="dictionary app preview"
           />
         </div>
         <div class="col">
           <div class="project-description">
             <h2 class="mb-5">Dictionary App</h2>
             <p class="mb-5 text-muted">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast of the Semantics, a
-              large language ocean. A small river named Duden flows by
+              I immersed myself in React development in SheCodes React. I used
+              my knowledge of this highly-demanded framework to build a working
+              dictionary app incorporating coding best practices, along with the
+              most popular tools and technologies.
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
     </div>
-    <footer>
+    <footer class="container">
       <div class="contact-box d-none d-md-flex justify-content-between mb-5">
         <div>
-          <h4>Work inquiry</h4>
+          <h3>Work inquiry</h3>
           <p class="text-muted">Let's work together!</p>
         </div>
         <div>
@@ -128,18 +147,37 @@
           >linda.thurner@outlook.at</a
         >
       </div>
-
       <div class="social-links d-flex justify-content-center mb-5">
-        <a href="https://github.com/lindath0905" target="_blank">
+        <a
+          href="https://github.com/lindath0905"
+          target="_blank"
+          title="GitHub profile"
+        >
           <i class="fab fa-github"></i
         ></a>
-        <a href="https://www.instagram.com/linda_thrnr/" target="_blank">
+        <a
+          href="https://www.instagram.com/linda_thrnr/"
+          target="_blank"
+          title="Instagram profile"
+        >
           <i class="fab fa-instagram"></i
         ></a>
-        <a href="https://www.facebook.com/linda.thurner/" target="_blank">
+        <a
+          href="https://www.facebook.com/linda.thurner/"
+          target="_blank"
+          title="Facebook profile"
+        >
           <i class="fab fa-facebook"></i
         ></a>
       </div>
+      <p class="text-center text-muted mb-5">
+        This website was coded by Linda Thurner and is
+        <a
+          href="https://github.com/lindath0905/portfolio_project"
+          target="_blank"
+          >open-sourced</a
+        >.
+      </p>
     </footer>
   </body>
 </html>
